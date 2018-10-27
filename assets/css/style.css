@@ -36,7 +36,7 @@ h4 {
 header {
     text-align: center;
     margin-top: 45px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     margin-right: 0;
 }
 
@@ -74,7 +74,7 @@ header {
     padding-top: 20px;
     display: block;
     color: #000000;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .menuitem span {
@@ -133,6 +133,7 @@ footer {
 
 #footer-details {
     margin: 20px;
+    text-align: center;
 }
 
 /*------------------------------Video*/
@@ -145,28 +146,42 @@ h2 {
     margin-bottom: 25px;
 }
 
-video {
-    width: 60%;
+.embedded-video {
+    text-align: center;
+    margin: auto;
     height: auto;
-    display: block;
+}
+
+video {
+    width: 53%;
 }
 
 
 /*------------------------------Image*/
+.gallery-div {
+    text-align: center;
+}
 
 #on-stage {
     width: 50%;
 }
 
 /*------------------------------Musics*/
+.listenus-div {
+    text-align: center;
+}
 
-.music {
+.music h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 30px;
     color: #000000;
-    margin-bottom: 10px;
+    margin:0;
+}
+
+audio {
+    margin-bottom: 15px;
 }
 
 /*------------------------------BookUs*/
