@@ -160,6 +160,39 @@ video {
     margin-bottom: 10px;
 }
 
+/*------------------------------Contact*/
+
+.contact-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+section h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
 /*------------------------------Media Queries*/
 
 @media(max-width: 768px) {
