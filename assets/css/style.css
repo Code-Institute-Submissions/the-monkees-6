@@ -55,15 +55,18 @@ header {
 }
 
 /*------------------------------NAVBAR*/
+.navbar-nav {
+    text-align: center;   
+}
 
 .menuitem {
+    text-align: center;
     width: 90px;
     height: 90px;
-    text-align: center;
-    padding: 0;
 }
 
 .menuitem a {
+    text-align: center;
     width: 100%;
     text-decoration: none;
     color: #000000;
@@ -71,13 +74,14 @@ header {
 }
 
 .menuitem a i {
+    text-align: center;
     padding-top: 20px;
     display: block;
     color: #000000;
     font-size: 20px;
 }
 
-.menuitem span {
+.menuitem a span {
     display: block;
     width: 100%;
     text-align: center;
