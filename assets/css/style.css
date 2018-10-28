@@ -31,10 +31,6 @@ h4 {
     color: #000000;
 }
 
-.col-xs-6 {
-    margin: 0;
-}
-
 
 /*------------------------------Heading*/
 
@@ -85,6 +81,7 @@ header {
     display: block;
     color: #000000;
     font-size: 20px;
+    
 }
 
 .menuitem a span {
