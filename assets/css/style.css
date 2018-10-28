@@ -169,14 +169,17 @@ video {
     text-align: center;
 }
 
-#on-stage {
-    width: 50%;
-}
-
 img {
     margin: 10px;
     border-color: black;
     border: solid;
+    max-height: 250px;
+}
+
+#on-stage {
+    max-height: 500px;
+    width: 50%;
+    height: 50%;
 }
 
 /*------------------------------Musics*/
