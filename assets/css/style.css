@@ -173,6 +173,12 @@ video {
     width: 50%;
 }
 
+img {
+    margin: 10px;
+    border-color: black;
+    border: solid;
+}
+
 /*------------------------------Musics*/
 .listenus-div {
     text-align: center;
