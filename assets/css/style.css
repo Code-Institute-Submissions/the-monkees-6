@@ -55,9 +55,6 @@ header {
 }
 
 /*------------------------------NAVBAR*/
-.navbar-nav {
-    margin-left: 5px;
-}
 
 .navbar-nav ul li {
     margin: 0px 5px;
@@ -105,9 +102,10 @@ header {
 }
 
 .hvr-sweep-to-bottom:before {
+    text-align: center;
     width: 77px;
     background: rgba(0, 0, 0, 0.2);
-    height: 77px;
+    height: 87px;
 }
 
 .social-links li a i:hover {
