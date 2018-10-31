@@ -169,6 +169,7 @@ video {
 /*------------------------------Image*/
 .gallery-div {
     text-align: center;
+    margin: 0;
 }
 
 img {
@@ -187,6 +188,7 @@ img {
 /*------------------------------Musics*/
 .listenus-div {
     text-align: center;
+    margin: 0;
 }
 
 .music h2 {
