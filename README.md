@@ -20,7 +20,6 @@ Also, they are in the process of creating a social media presence and would like
 
 Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 Existing Features
 
     Ebedded video - allows the users to watch a video clip from the band without go to a different webpage
@@ -31,8 +30,6 @@ Existing Features
 
 Technologies Used
 
-    JQuery
-        The project uses JQuery to simplify DOM manipulation.
     HTML/HTML5
     CSS/CSS3
     Bootstrap
@@ -48,9 +45,9 @@ Testing
 
 The webpage was tested on PC and smartphone.
 On PC I used the following browsers:
--Mozilla Firefox
--Internet Explorer
--Microsoft Edge
+* Mozilla Firefox
+* Internet Explorer
+* Microsoft Edge
 
 I tested the site on my personal smartphone which is a Huawei P20. I use the chrome browser on it.
 
