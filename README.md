@@ -44,46 +44,30 @@ Technologies Used
     
 
 
-Testing(BE FILLED LATER)
+Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The webpage was tested on PC and smartphone.
+On PC I used the following browsers:
+-Mozilla Firefox
+-Internet Explorer
+-Microsoft Edge
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I tested the site on my personal smartphone which is a Huawei P20. I use the chrome browser on it.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I used the Firefox's Developer Tools to test the website on different screen sizes.
+I made sure the website works on small, on medium and on large devices as well.
 
-    Contact form:
-        Go to the "Contact Us" page
-        Try to submit the empty form and verify that an error message about the required fields appears
-        Try to submit the form with an invalid email address and verify that a relevant error message appears
-        Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Deployment
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+First I created a local Git repository and commit every changes to there after I pushed them to my GitHub repository.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment(BE FILLED LATER)
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-    Different values for environment variables (Heroku Config Vars)?
-    Different configuration files?
-    Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+If you would like to run this webpage locally you must download these files into the some folder and you must open the index.html file.
 Credits
-Content
-
-    The text for section Y was copied from the Wikipedia article Z
-
 Media
 
-    The photos used in this site were obtained from ...
+    The photos, the songs and the video used in this site were obtained from Code Institute
 
 Acknowledgements
 
-    I received inspiration for this project from X
+    I received inspiration for this project from Code Institute's lessons.
