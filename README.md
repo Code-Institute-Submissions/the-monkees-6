@@ -60,7 +60,9 @@ Deployment
 First I created a local Git repository and commit every changes to there after I pushed them to my GitHub repository.
 
 If you would like to run this webpage locally you must download these files into the some folder and you must open the index.html file.
+
 Credits
+
 Media
 
     The photos, the songs and the video used in this site were obtained from Code Institute
