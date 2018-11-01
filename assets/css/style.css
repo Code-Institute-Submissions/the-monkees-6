@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
     background: url('../images/background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    justify-content: center;
-    position: relative;
-    height:100%;
-    padding-bottom:70px;
+
 }
+
 /*------------------------------Special Padding/Margins/Text*/
+
 h1,
 h2,
 h3,
@@ -18,30 +14,33 @@ h4 {
     margin: 0;
     padding: 0;
 }
-.uppercase {
-    text-transform: uppercase;
-}
+
 .general-sub {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #000000;
 }
-#container{
-    min-height:100%;
-    position:relative;
+
+#container {
+    min-height: 100%;
+    position: relative;
 }
+
 /*------------------------------Heading*/
+
 header {
     text-align: center;
     margin-top: 45px;
     margin-bottom: 30px;
     margin-right: 0;
 }
+
 .background-box {
-    background-color: rgba(255, 255, 255, 0.3);
-    text-align:center;
+    background-color: rgba(119,59,0, 0.3);
+    text-align: center;
 }
-.title h1 {
+
+.header h1 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -50,31 +49,32 @@ header {
     padding: 0;
     color: #000000;
 }
+
 /*------------------------------NAVBAR*/
-.navbar-nav{
-    text-align:center;
+
+.navbar-nav {
+    padding: 0px;
 }
-.navbar-nav ul li {
-    text-align: center;
-}
+
 .menuitem {
-    text-align: center;
     height: 67px;
 }
+
 .menuitem a {
     text-align: center;
     text-decoration: none;
     color: #000000;
     height: 67px;
 }
+
 .menuitem a i {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px;
     display: block;
     color: #000000;
     font-size: 20px;
 }
+
 .menuitem a span {
     display: block;
     text-align: center;
@@ -83,18 +83,24 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 /*------------------------------Hover.css*/
+
 .title a {
     text-decoration: none;
 }
+
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     height: 77px;
 }
+
 .social-links li a i:hover {
     background: #742308;
 }
+
 /*------------------------------Footer*/
+
 footer {
     position: fixed;
     bottom: 0;
@@ -103,6 +109,7 @@ footer {
     color: #000000;
     text-align: center;
 }
+
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -114,11 +121,10 @@ footer {
     color: #ffffff;
     background: #e84610;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
+
 /*------------------------------Video*/
+
 h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -127,46 +133,59 @@ h2 {
     color: #000000;
     margin-bottom: 25px;
 }
+
 .embedded-video {
     text-align: center;
     margin: auto;
     height: auto;
 }
+
 video {
-    width: 53%;
+    width: 85%;
+    height: auto;
 }
+
 /*------------------------------Image*/
+
 .gallery-div {
     margin: 0;
 }
+
 img {
     margin: 10px;
     border-color: black;
     border: solid;
     max-height: 250px;
 }
+
 #on-stage {
     max-height: 500px;
     width: 85%;
     height: 50%;
 }
+
 /*------------------------------Musics*/
+
 .listenus-div {
     text-align: center;
     margin: 0;
 }
+
 .music h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 30px;
     color: #000000;
-    margin:0;
+    margin: 0;
 }
+
 audio {
     margin-bottom: 15px;
 }
+
 /*------------------------------BookUs*/
+
 .bookus-heading {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -175,6 +194,7 @@ audio {
     margin-bottom: 0;
     color: #000000;
 }
+
 section h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -183,24 +203,38 @@ section h5 {
     margin-bottom: 10px;
     color: #000000;
 }
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 50%;
 }
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
 }
+/*------------------------------Book Us*/
+textarea {
+   resize: none;
+}
 /*------------------------------Media Queries*/
+
 @media(min-width: 768px) {
     video {
-        width: 85%;
-        height: auto;
+        width: 60%;
     }
     #on-stage {
+        max-height: 500px;
+        width: 85%;
+        height: 50%;
+    }
+}
+
+@media(min-width: 1200px) {
+    video {
         width: 50%;
     }
 }
