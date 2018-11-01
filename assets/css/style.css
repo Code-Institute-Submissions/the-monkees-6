@@ -20,6 +20,7 @@ h2 {
 }
 
 .general-sub {
+    margin-bottom: 10px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -38,7 +39,6 @@ h2 {
 /*------------------------------Heading*/
 
 header {
-    text-align: center;
     margin-top: 45px;
     margin-bottom: 30px;
     margin-right: 0;
@@ -50,7 +50,6 @@ header {
 }
 
 .header h1 {
-    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 70px;
@@ -70,14 +69,12 @@ header {
 }
 
 .menuitem a {
-    text-align: center;
     text-decoration: none;
     color: #000000;
     height: 67px;
 }
 
 .menuitem a i {
-    text-align: center;
     padding: 10px 0px;
     display: block;
     color: #000000;
@@ -86,7 +83,6 @@ header {
 
 .menuitem a span {
     display: block;
-    text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
@@ -116,7 +112,6 @@ footer {
     width: 100%;
     height: 65px;
     color: #000000;
-    text-align: center;
 }
 
 .social-links li a i {
@@ -126,7 +121,6 @@ footer {
     border-radius: 50%;
     font-size: 20px;
     line-height: 7px;
-    text-align: center;
     color: #ffffff;
     background: #e84610;
     transition: all 0.35s ease-in-out;
@@ -168,7 +162,6 @@ img {
 /*------------------------------Musics*/
 
 .music h2 {
-    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 30px;
