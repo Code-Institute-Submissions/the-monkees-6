@@ -69,4 +69,8 @@ Media
 
 Acknowledgements
 
+<<<<<<< HEAD
     I received inspiration for this project from Code Institute's lesso
+=======
+    I received inspiration for this project from Code Institute's lessons.
+>>>>>>> 967d29d45bf99ffabe91d75a221a2f3e5a468e51
