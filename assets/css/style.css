@@ -16,7 +16,7 @@ h4 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .general-sub {
@@ -40,11 +40,12 @@ header {
 }
 
 .background-box {
-    background-color: rgba(119, 59, 0, 0.3); /*#773B00*/
+    background-color: rgba(119, 59, 0, 0.3);
+    /*#773B00*/
     text-align: center;
 }
 
-.header h1 {
+.header a h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 70px;
@@ -86,7 +87,7 @@ header {
 
 /*------------------------------Hover.css*/
 
-.title a {
+.header a {
     text-decoration: none;
 }
 
@@ -101,12 +102,13 @@ header {
 
 /*------------------------------Footer*/
 
-footer {
-    position: fixed;
-    bottom: 0;
+.footer-bottom {
+    position: relative;
+    bottom: auto;
     width: 100%;
     height: 65px;
     color: #000000;
+    padding-top: 15px;
 }
 
 .social-links li a i {
@@ -137,10 +139,6 @@ video {
 
 /*------------------------------Image*/
 
-.gallery-div {
-    margin: 0;
-}
-
 img {
     margin: 10px;
     border-color: black;
@@ -156,7 +154,7 @@ img {
 
 /*------------------------------Musics*/
 
-.music h2 {
+.music h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 30px;
@@ -175,7 +173,8 @@ audio {
     font-size: 25px;
     margin-top: 10px;
 }
-.bookus-us-now{
+
+.bookus-us-now {
     font-weight: 400;
     font-size: 20px;
     margin-top: 5px;
@@ -191,6 +190,7 @@ audio {
     background-color: #FFCF9E;
     border-color: #773B00;
 }
+
 .my-form:focus {
     background-color: #FFCF9E;
     border-color: #fff;
@@ -210,19 +210,20 @@ textarea {
 /*------------------------------Media Queries*/
 
 @media(min-width: 768px) {
+    .footer-bottom {
+        position: absolute;
+        bottom: 0;
+    }
     video {
-        width: 60%;
-        margin-top: 35px;
+        width: 58%;
+        margin-top: 25px;
     }
     #on-stage {
         max-height: 500px;
-        width: 85%;
+        width: 50%;
         height: 50%;
     }
-}
-
-@media(min-width: 1200px) {
-    video {
-        width: 50%;
+    h2 {
+        font-size: 50px;
     }
 }
