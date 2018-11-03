@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
     background: url('../images/background.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-size: 100;
 
 }
 
@@ -225,5 +225,10 @@ textarea {
     }
     h2 {
         font-size: 50px;
+    }
+    body {
+        background: url('../images/background.jpg') no-repeat center center fixed;
+        background-size: cover;
+
     }
 }
