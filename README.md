@@ -34,8 +34,6 @@ Technologies Used
     CSS/CSS3
     Bootstrap
         The project uses Bootstrap elements (for example: Grid System, Font Awesome) to make the development faster and to make the website look much better
-    CDNJS
-        The project uses CDNJS animations such as hover effects
     GIT
         The project uses GIT to be able to save different versions of the project
     
